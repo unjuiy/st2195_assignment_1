@@ -1,0 +1,21 @@
+---
+title: "integers"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Print integers
+
+Print integers 1 to 10
+
+```{r}
+for (i in 1:10) {
+  print(i)
+}
+```
+
